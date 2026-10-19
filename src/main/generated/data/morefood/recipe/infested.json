@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "More foods",
+  "ingredients": [
+    "minecraft:potion",
+    "morefood:testtube"
+  ],
+  "result": {
+    "id": "morefood:testtube_of_infestation"
+  }
+}

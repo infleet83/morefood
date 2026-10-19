@@ -23,8 +23,8 @@ public class ModModelProvider extends FabricModelProvider {
     public void generateItemModels(ItemModelGenerators itemModelGenerators) {
         // Testtubes keep their own texture: one model per testtube.
         itemModelGenerators.generateFlatItem(ModItem.Testtube, ModelTemplates.FLAT_ITEM);
-        itemModelGenerators.generateFlatItem(ModItem.TesttubeOfAwkwardness, ModelTemplates.FLAT_ITEM);
-        itemModelGenerators.generateFlatItem(ModItem.TesttubeOfMundanity, ModelTemplates.FLAT_ITEM);
+
+
         itemModelGenerators.generateFlatItem(ModItem.TesttubeOfDensity, ModelTemplates.FLAT_ITEM);
         itemModelGenerators.generateFlatItem(ModItem.TesttubeOfWeakness, ModelTemplates.FLAT_ITEM);
         itemModelGenerators.generateFlatItem(ModItem.TesttubeOfHealing, ModelTemplates.FLAT_ITEM);
@@ -46,9 +46,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerators.generateFlatItem(ModItem.TesttubeOfWeaving, ModelTemplates.FLAT_ITEM);
         itemModelGenerators.generateFlatItem(ModItem.TesttubeOfInfestation, ModelTemplates.FLAT_ITEM);
 
-        copyBase(itemModelGenerators, Base.COOKED_CHICKEN,
-                ModItem.CookedChickenWithAwkwardness, ModItem.CookedChickenWithMundanity,
-                ModItem.CookedChickenWithDensity, ModItem.CookedChickenWithWeakness,
+        copyBase(itemModelGenerators, Base.COOKED_CHICKEN, ModItem.CookedChickenWithWeakness,
                 ModItem.CookedChickenWithHealing, ModItem.CookedChickenWithRegeneration,
                 ModItem.CookedChickenWithStrength, ModItem.CookedChickenWithSwiftness,
                 ModItem.CookedChickenWithLeaping, ModItem.CookedChickenWithFireResistance,
@@ -59,9 +57,7 @@ public class ModModelProvider extends FabricModelProvider {
                 ModItem.CookedChickenWithWindCharging, ModItem.CookedChickenWithOozing,
                 ModItem.CookedChickenWithWeaving, ModItem.CookedChickenWithInfestation);
 
-        copyBase(itemModelGenerators, Base.COOKED_MUTTON,
-                ModItem.CookedMuttonWithAwkwardness, ModItem.CookedMuttonWithMundanity,
-                ModItem.CookedMuttonWithDensity, ModItem.CookedMuttonWithWeakness,
+        copyBase(itemModelGenerators, Base.COOKED_MUTTON, ModItem.CookedMuttonWithWeakness,
                 ModItem.CookedMuttonWithHealing, ModItem.CookedMuttonWithRegeneration,
                 ModItem.CookedMuttonWithStrength, ModItem.CookedMuttonWithSwiftness,
                 ModItem.CookedMuttonWithLeaping, ModItem.CookedMuttonWithFireResistance,
@@ -72,9 +68,7 @@ public class ModModelProvider extends FabricModelProvider {
                 ModItem.CookedMuttonWithWindCharging, ModItem.CookedMuttonWithOozing,
                 ModItem.CookedMuttonWithWeaving, ModItem.CookedMuttonWithInfestation);
 
-        copyBase(itemModelGenerators, Base.COOKED_PORKCHOP,
-                ModItem.CookedPorkchopWithAwkwardness, ModItem.CookedPorkchopWithMundanity,
-                ModItem.CookedPorkchopWithDensity, ModItem.CookedPorkchopWithWeakness,
+        copyBase(itemModelGenerators, Base.COOKED_PORKCHOP, ModItem.CookedPorkchopWithWeakness,
                 ModItem.CookedPorkchopWithHealing, ModItem.CookedPorkchopWithRegeneration,
                 ModItem.CookedPorkchopWithStrength, ModItem.CookedPorkchopWithSwiftness,
                 ModItem.CookedPorkchopWithLeaping, ModItem.CookedPorkchopWithFireResistance,
@@ -85,9 +79,7 @@ public class ModModelProvider extends FabricModelProvider {
                 ModItem.CookedPorkchopWithWindCharging, ModItem.CookedPorkchopWithOozing,
                 ModItem.CookedPorkchopWithWeaving, ModItem.CookedPorkchopWithInfestation);
 
-        copyBase(itemModelGenerators, Base.COOKED_BEEF,
-                ModItem.CookedBeefWithAwkwardness, ModItem.CookedBeefWithMundanity,
-                ModItem.CookedBeefWithDensity, ModItem.CookedBeefWithWeakness,
+        copyBase(itemModelGenerators, Base.COOKED_BEEF, ModItem.CookedBeefWithWeakness,
                 ModItem.CookedBeefWithHealing, ModItem.CookedBeefWithRegeneration,
                 ModItem.CookedBeefWithStrength, ModItem.CookedBeefWithSwiftness,
                 ModItem.CookedBeefWithLeaping, ModItem.CookedBeefWithFireResistance,
@@ -98,9 +90,7 @@ public class ModModelProvider extends FabricModelProvider {
                 ModItem.CookedBeefWithWindCharging, ModItem.CookedBeefWithOozing,
                 ModItem.CookedBeefWithWeaving, ModItem.CookedBeefWithInfestation);
 
-        copyBase(itemModelGenerators, Base.COOKED_RABBIT,
-                ModItem.CookedRabbitWithAwkwardness, ModItem.CookedRabbitWithMundanity,
-                ModItem.CookedRabbitWithDensity, ModItem.CookedRabbitWithWeakness,
+        copyBase(itemModelGenerators, Base.COOKED_RABBIT, ModItem.CookedRabbitWithWeakness,
                 ModItem.CookedRabbitWithHealing, ModItem.CookedRabbitWithRegeneration,
                 ModItem.CookedRabbitWithStrength, ModItem.CookedRabbitWithSwiftness,
                 ModItem.CookedRabbitWithLeaping, ModItem.CookedRabbitWithFireResistance,
@@ -111,9 +101,7 @@ public class ModModelProvider extends FabricModelProvider {
                 ModItem.CookedRabbitWithWindCharging, ModItem.CookedRabbitWithOozing,
                 ModItem.CookedRabbitWithWeaving, ModItem.CookedRabbitWithInfestation);
 
-        copyBase(itemModelGenerators, Base.COOKED_COD,
-                ModItem.CookedCodWithAwkwardness, ModItem.CookedCodWithMundanity,
-                ModItem.CookedCodWithDensity, ModItem.CookedCodWithWeakness,
+        copyBase(itemModelGenerators, Base.COOKED_COD, ModItem.CookedCodWithWeakness,
                 ModItem.CookedCodWithHealing, ModItem.CookedCodWithRegeneration,
                 ModItem.CookedCodWithStrength, ModItem.CookedCodWithSwiftness,
                 ModItem.CookedCodWithLeaping, ModItem.CookedCodWithFireResistance,
@@ -124,9 +112,7 @@ public class ModModelProvider extends FabricModelProvider {
                 ModItem.CookedCodWithWindCharging, ModItem.CookedCodWithOozing,
                 ModItem.CookedCodWithWeaving, ModItem.CookedCodWithInfestation);
 
-        copyBase(itemModelGenerators, Base.COOKED_SALMON,
-                ModItem.CookedSalmonWithAwkwardness, ModItem.CookedSalmonWithMundanity,
-                ModItem.CookedSalmonWithDensity, ModItem.CookedSalmonWithWeakness,
+        copyBase(itemModelGenerators, Base.COOKED_SALMON, ModItem.CookedSalmonWithWeakness,
                 ModItem.CookedSalmonWithHealing, ModItem.CookedSalmonWithRegeneration,
                 ModItem.CookedSalmonWithStrength, ModItem.CookedSalmonWithSwiftness,
                 ModItem.CookedSalmonWithLeaping, ModItem.CookedSalmonWithFireResistance,
@@ -137,9 +123,7 @@ public class ModModelProvider extends FabricModelProvider {
                 ModItem.CookedSalmonWithWindCharging, ModItem.CookedSalmonWithOozing,
                 ModItem.CookedSalmonWithWeaving, ModItem.CookedSalmonWithInfestation);
 
-        copyBase(itemModelGenerators, Base.APPLE,
-                ModItem.AppleWithAwkwardness, ModItem.AppleWithMundanity,
-                ModItem.AppleWithDensity, ModItem.AppleWithWeakness,
+        copyBase(itemModelGenerators, Base.APPLE, ModItem.AppleWithWeakness,
                 ModItem.AppleWithHealing, ModItem.AppleWithRegeneration,
                 ModItem.AppleWithStrength, ModItem.AppleWithSwiftness,
                 ModItem.AppleWithLeaping, ModItem.AppleWithFireResistance,
@@ -150,9 +134,7 @@ public class ModModelProvider extends FabricModelProvider {
                 ModItem.AppleWithWindCharging, ModItem.AppleWithOozing,
                 ModItem.AppleWithWeaving, ModItem.AppleWithInfestation);
 
-        copyBase(itemModelGenerators, Base.SWEET_BERRIES,
-                ModItem.SweetBerriesWithAwkwardness, ModItem.SweetBerriesWithMundanity,
-                ModItem.SweetBerriesWithDensity, ModItem.SweetBerriesWithWeakness,
+        copyBase(itemModelGenerators, Base.SWEET_BERRIES, ModItem.SweetBerriesWithWeakness,
                 ModItem.SweetBerriesWithHealing, ModItem.SweetBerriesWithRegeneration,
                 ModItem.SweetBerriesWithStrength, ModItem.SweetBerriesWithSwiftness,
                 ModItem.SweetBerriesWithLeaping, ModItem.SweetBerriesWithFireResistance,
@@ -163,9 +145,7 @@ public class ModModelProvider extends FabricModelProvider {
                 ModItem.SweetBerriesWithWindCharging, ModItem.SweetBerriesWithOozing,
                 ModItem.SweetBerriesWithWeaving, ModItem.SweetBerriesWithInfestation);
 
-        copyBase(itemModelGenerators, Base.GLOW_BERRIES,
-                ModItem.GlowBerriesWithAwkwardness, ModItem.GlowBerriesWithMundanity,
-                ModItem.GlowBerriesWithDensity, ModItem.GlowBerriesWithWeakness,
+        copyBase(itemModelGenerators, Base.GLOW_BERRIES, ModItem.GlowBerriesWithWeakness,
                 ModItem.GlowBerriesWithHealing, ModItem.GlowBerriesWithRegeneration,
                 ModItem.GlowBerriesWithStrength, ModItem.GlowBerriesWithSwiftness,
                 ModItem.GlowBerriesWithLeaping, ModItem.GlowBerriesWithFireResistance,
@@ -176,9 +156,7 @@ public class ModModelProvider extends FabricModelProvider {
                 ModItem.GlowBerriesWithWindCharging, ModItem.GlowBerriesWithOozing,
                 ModItem.GlowBerriesWithWeaving, ModItem.GlowBerriesWithInfestation);
 
-        copyBase(itemModelGenerators, Base.MELON_SLICE,
-                ModItem.MelonSliceWithAwkwardness, ModItem.MelonSliceWithMundanity,
-                ModItem.MelonSliceWithDensity, ModItem.MelonSliceWithWeakness,
+        copyBase(itemModelGenerators, Base.MELON_SLICE, ModItem.MelonSliceWithWeakness,
                 ModItem.MelonSliceWithHealing, ModItem.MelonSliceWithRegeneration,
                 ModItem.MelonSliceWithStrength, ModItem.MelonSliceWithSwiftness,
                 ModItem.MelonSliceWithLeaping, ModItem.MelonSliceWithFireResistance,
@@ -189,9 +167,7 @@ public class ModModelProvider extends FabricModelProvider {
                 ModItem.MelonSliceWithWindCharging, ModItem.MelonSliceWithOozing,
                 ModItem.MelonSliceWithWeaving, ModItem.MelonSliceWithInfestation);
 
-        copyBase(itemModelGenerators, Base.CARROT,
-                ModItem.CarrotWithAwkwardness, ModItem.CarrotWithMundanity,
-                ModItem.CarrotWithDensity, ModItem.CarrotWithWeakness,
+        copyBase(itemModelGenerators, Base.CARROT, ModItem.CarrotWithWeakness,
                 ModItem.CarrotWithHealing, ModItem.CarrotWithRegeneration,
                 ModItem.CarrotWithStrength, ModItem.CarrotWithSwiftness,
                 ModItem.CarrotWithLeaping, ModItem.CarrotWithFireResistance,
@@ -202,9 +178,7 @@ public class ModModelProvider extends FabricModelProvider {
                 ModItem.CarrotWithWindCharging, ModItem.CarrotWithOozing,
                 ModItem.CarrotWithWeaving, ModItem.CarrotWithInfestation);
 
-        copyBase(itemModelGenerators, Base.POTATO,
-                ModItem.PotatoWithAwkwardness, ModItem.PotatoWithMundanity,
-                ModItem.PotatoWithDensity, ModItem.PotatoWithWeakness,
+        copyBase(itemModelGenerators, Base.POTATO, ModItem.PotatoWithWeakness,
                 ModItem.PotatoWithHealing, ModItem.PotatoWithRegeneration,
                 ModItem.PotatoWithStrength, ModItem.PotatoWithSwiftness,
                 ModItem.PotatoWithLeaping, ModItem.PotatoWithFireResistance,
@@ -215,9 +189,7 @@ public class ModModelProvider extends FabricModelProvider {
                 ModItem.PotatoWithWindCharging, ModItem.PotatoWithOozing,
                 ModItem.PotatoWithWeaving, ModItem.PotatoWithInfestation);
 
-        copyBase(itemModelGenerators, Base.BAKED_POTATO,
-                ModItem.BakedPotatoWithAwkwardness, ModItem.BakedPotatoWithMundanity,
-                ModItem.BakedPotatoWithDensity, ModItem.BakedPotatoWithWeakness,
+        copyBase(itemModelGenerators, Base.BAKED_POTATO, ModItem.BakedPotatoWithWeakness,
                 ModItem.BakedPotatoWithHealing, ModItem.BakedPotatoWithRegeneration,
                 ModItem.BakedPotatoWithStrength, ModItem.BakedPotatoWithSwiftness,
                 ModItem.BakedPotatoWithLeaping, ModItem.BakedPotatoWithFireResistance,
@@ -228,9 +200,7 @@ public class ModModelProvider extends FabricModelProvider {
                 ModItem.BakedPotatoWithWindCharging, ModItem.BakedPotatoWithOozing,
                 ModItem.BakedPotatoWithWeaving, ModItem.BakedPotatoWithInfestation);
 
-        copyBase(itemModelGenerators, Base.BEETROOT,
-                ModItem.BeetrootWithAwkwardness, ModItem.BeetrootWithMundanity,
-                ModItem.BeetrootWithDensity, ModItem.BeetrootWithWeakness,
+        copyBase(itemModelGenerators, Base.BEETROOT, ModItem.BeetrootWithWeakness,
                 ModItem.BeetrootWithHealing, ModItem.BeetrootWithRegeneration,
                 ModItem.BeetrootWithStrength, ModItem.BeetrootWithSwiftness,
                 ModItem.BeetrootWithLeaping, ModItem.BeetrootWithFireResistance,
@@ -241,9 +211,7 @@ public class ModModelProvider extends FabricModelProvider {
                 ModItem.BeetrootWithWindCharging, ModItem.BeetrootWithOozing,
                 ModItem.BeetrootWithWeaving, ModItem.BeetrootWithInfestation);
 
-        copyBase(itemModelGenerators, Base.DRIED_KELP,
-                ModItem.DriedKelpWithAwkwardness, ModItem.DriedKelpWithMundanity,
-                ModItem.DriedKelpWithDensity, ModItem.DriedKelpWithWeakness,
+        copyBase(itemModelGenerators, Base.DRIED_KELP, ModItem.DriedKelpWithWeakness,
                 ModItem.DriedKelpWithHealing, ModItem.DriedKelpWithRegeneration,
                 ModItem.DriedKelpWithStrength, ModItem.DriedKelpWithSwiftness,
                 ModItem.DriedKelpWithLeaping, ModItem.DriedKelpWithFireResistance,
@@ -254,9 +222,7 @@ public class ModModelProvider extends FabricModelProvider {
                 ModItem.DriedKelpWithWindCharging, ModItem.DriedKelpWithOozing,
                 ModItem.DriedKelpWithWeaving, ModItem.DriedKelpWithInfestation);
 
-        copyBase(itemModelGenerators, Base.BREAD,
-                ModItem.BreadWithAwkwardness, ModItem.BreadWithMundanity,
-                ModItem.BreadWithDensity, ModItem.BreadWithWeakness,
+        copyBase(itemModelGenerators, Base.BREAD, ModItem.BreadWithWeakness,
                 ModItem.BreadWithHealing, ModItem.BreadWithRegeneration,
                 ModItem.BreadWithStrength, ModItem.BreadWithSwiftness,
                 ModItem.BreadWithLeaping, ModItem.BreadWithFireResistance,
@@ -267,9 +233,7 @@ public class ModModelProvider extends FabricModelProvider {
                 ModItem.BreadWithWindCharging, ModItem.BreadWithOozing,
                 ModItem.BreadWithWeaving, ModItem.BreadWithInfestation);
 
-        copyBase(itemModelGenerators, Base.COOKIE,
-                ModItem.CookieWithAwkwardness, ModItem.CookieWithMundanity,
-                ModItem.CookieWithDensity, ModItem.CookieWithWeakness,
+        copyBase(itemModelGenerators, Base.COOKIE, ModItem.CookieWithWeakness,
                 ModItem.CookieWithHealing, ModItem.CookieWithRegeneration,
                 ModItem.CookieWithStrength, ModItem.CookieWithSwiftness,
                 ModItem.CookieWithLeaping, ModItem.CookieWithFireResistance,

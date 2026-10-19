@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "More foods",
+  "ingredients": [
+    "morefood:testtube_of_leaping",
+    "minecraft:baked_potato"
+  ],
+  "result": {
+    "id": "morefood:baked_potato_with_leaping"
+  }
+}

@@ -1,11 +1,10 @@
 package name.modid;
 
 import name.modid.Item.ModItem;
+import name.modid.consumable.ModConsumables;
 import name.modid.creativemodetab.ModCreativeModeTabs;
 import net.fabricmc.api.ModInitializer;
-
 import net.minecraft.resources.Identifier;
-
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -16,8 +15,10 @@ public class Morefood implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+
 		ModCreativeModeTabs.registerModCreativeModeTab();
 		ModItem.registerModItems();
+		ModConsumables.registerModconsumables();
 	}
 
 	public static Identifier id(String path) {

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "More foods",
+  "ingredients": [
+    "morefood:testtube_of_harming",
+    "minecraft:apple"
+  ],
+  "result": {
+    "id": "morefood:apple_with_harming"
+  }
+}

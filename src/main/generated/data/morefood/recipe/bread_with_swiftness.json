@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "More foods",
+  "ingredients": [
+    "morefood:testtube_of_swiftness",
+    "minecraft:bread"
+  ],
+  "result": {
+    "id": "morefood:bread_with_swiftness"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "More foods",
+  "ingredients": [
+    "morefood:testtube_of_slow_falling",
+    "minecraft:sweet_berries"
+  ],
+  "result": {
+    "id": "morefood:sweet_berries_with_slow_falling"
+  }
+}

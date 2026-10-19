@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_testtube": {
+      "conditions": {
+        "items": [
+          {
+            "items": "morefood:testtube"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipes": "morefood:weakness"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_testtube"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "morefood:weakness"
+    ]
+  }
+}

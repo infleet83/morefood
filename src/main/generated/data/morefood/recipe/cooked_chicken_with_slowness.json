@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "More foods",
+  "ingredients": [
+    "morefood:testtube_of_slowness",
+    "minecraft:cooked_chicken"
+  ],
+  "result": {
+    "id": "morefood:cooked_chicken_with_slowness"
+  }
+}

@@ -19,8 +19,8 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("ModifiedFoods.morefood.modified_foods"))
                     .displayItems((parameters, output) -> {
                         output.accept(ModItem.Testtube);
-                        output.accept(ModItem.TesttubeOfAwkwardness);
-                        output.accept(ModItem.TesttubeOfMundanity);
+
+
                         output.accept(ModItem.TesttubeOfDensity);
                         output.accept(ModItem.TesttubeOfWeakness);
 
@@ -45,9 +45,6 @@ public class ModCreativeModeTabs {
                         output.accept(ModItem.TesttubeOfWeaving);
                         output.accept(ModItem.TesttubeOfInfestation);
 
-                        output.accept(ModItem.CookedChickenWithAwkwardness);
-                        output.accept(ModItem.CookedChickenWithMundanity);
-                        output.accept(ModItem.CookedChickenWithDensity);
                         output.accept(ModItem.CookedChickenWithWeakness);
                         output.accept(ModItem.CookedChickenWithHealing);
                         output.accept(ModItem.CookedChickenWithRegeneration);
@@ -68,9 +65,6 @@ public class ModCreativeModeTabs {
                         output.accept(ModItem.CookedChickenWithWeaving);
                         output.accept(ModItem.CookedChickenWithInfestation);
 
-                        output.accept(ModItem.CookedMuttonWithAwkwardness);
-                        output.accept(ModItem.CookedMuttonWithMundanity);
-                        output.accept(ModItem.CookedMuttonWithDensity);
                         output.accept(ModItem.CookedMuttonWithWeakness);
                         output.accept(ModItem.CookedMuttonWithHealing);
                         output.accept(ModItem.CookedMuttonWithRegeneration);
@@ -91,9 +85,6 @@ public class ModCreativeModeTabs {
                         output.accept(ModItem.CookedMuttonWithWeaving);
                         output.accept(ModItem.CookedMuttonWithInfestation);
 
-                        output.accept(ModItem.CookedPorkchopWithAwkwardness);
-                        output.accept(ModItem.CookedPorkchopWithMundanity);
-                        output.accept(ModItem.CookedPorkchopWithDensity);
                         output.accept(ModItem.CookedPorkchopWithWeakness);
                         output.accept(ModItem.CookedPorkchopWithHealing);
                         output.accept(ModItem.CookedPorkchopWithRegeneration);
@@ -114,9 +105,6 @@ public class ModCreativeModeTabs {
                         output.accept(ModItem.CookedPorkchopWithWeaving);
                         output.accept(ModItem.CookedPorkchopWithInfestation);
 
-                        output.accept(ModItem.CookedBeefWithAwkwardness);
-                        output.accept(ModItem.CookedBeefWithMundanity);
-                        output.accept(ModItem.CookedBeefWithDensity);
                         output.accept(ModItem.CookedBeefWithWeakness);
                         output.accept(ModItem.CookedBeefWithHealing);
                         output.accept(ModItem.CookedBeefWithRegeneration);
@@ -137,9 +125,6 @@ public class ModCreativeModeTabs {
                         output.accept(ModItem.CookedBeefWithWeaving);
                         output.accept(ModItem.CookedBeefWithInfestation);
 
-                        output.accept(ModItem.CookedRabbitWithAwkwardness);
-                        output.accept(ModItem.CookedRabbitWithMundanity);
-                        output.accept(ModItem.CookedRabbitWithDensity);
                         output.accept(ModItem.CookedRabbitWithWeakness);
                         output.accept(ModItem.CookedRabbitWithHealing);
                         output.accept(ModItem.CookedRabbitWithRegeneration);
@@ -160,9 +145,6 @@ public class ModCreativeModeTabs {
                         output.accept(ModItem.CookedRabbitWithWeaving);
                         output.accept(ModItem.CookedRabbitWithInfestation);
 
-                        output.accept(ModItem.CookedCodWithAwkwardness);
-                        output.accept(ModItem.CookedCodWithMundanity);
-                        output.accept(ModItem.CookedCodWithDensity);
                         output.accept(ModItem.CookedCodWithWeakness);
                         output.accept(ModItem.CookedCodWithHealing);
                         output.accept(ModItem.CookedCodWithRegeneration);
@@ -183,9 +165,6 @@ public class ModCreativeModeTabs {
                         output.accept(ModItem.CookedCodWithWeaving);
                         output.accept(ModItem.CookedCodWithInfestation);
 
-                        output.accept(ModItem.CookedSalmonWithAwkwardness);
-                        output.accept(ModItem.CookedSalmonWithMundanity);
-                        output.accept(ModItem.CookedSalmonWithDensity);
                         output.accept(ModItem.CookedSalmonWithWeakness);
                         output.accept(ModItem.CookedSalmonWithHealing);
                         output.accept(ModItem.CookedSalmonWithRegeneration);
@@ -206,9 +185,6 @@ public class ModCreativeModeTabs {
                         output.accept(ModItem.CookedSalmonWithWeaving);
                         output.accept(ModItem.CookedSalmonWithInfestation);
 
-                        output.accept(ModItem.AppleWithAwkwardness);
-                        output.accept(ModItem.AppleWithMundanity);
-                        output.accept(ModItem.AppleWithDensity);
                         output.accept(ModItem.AppleWithWeakness);
                         output.accept(ModItem.AppleWithHealing);
                         output.accept(ModItem.AppleWithRegeneration);
@@ -229,9 +205,6 @@ public class ModCreativeModeTabs {
                         output.accept(ModItem.AppleWithWeaving);
                         output.accept(ModItem.AppleWithInfestation);
 
-                        output.accept(ModItem.SweetBerriesWithAwkwardness);
-                        output.accept(ModItem.SweetBerriesWithMundanity);
-                        output.accept(ModItem.SweetBerriesWithDensity);
                         output.accept(ModItem.SweetBerriesWithWeakness);
                         output.accept(ModItem.SweetBerriesWithHealing);
                         output.accept(ModItem.SweetBerriesWithRegeneration);
@@ -252,9 +225,6 @@ public class ModCreativeModeTabs {
                         output.accept(ModItem.SweetBerriesWithWeaving);
                         output.accept(ModItem.SweetBerriesWithInfestation);
 
-                        output.accept(ModItem.GlowBerriesWithAwkwardness);
-                        output.accept(ModItem.GlowBerriesWithMundanity);
-                        output.accept(ModItem.GlowBerriesWithDensity);
                         output.accept(ModItem.GlowBerriesWithWeakness);
                         output.accept(ModItem.GlowBerriesWithHealing);
                         output.accept(ModItem.GlowBerriesWithRegeneration);
@@ -275,9 +245,6 @@ public class ModCreativeModeTabs {
                         output.accept(ModItem.GlowBerriesWithWeaving);
                         output.accept(ModItem.GlowBerriesWithInfestation);
 
-                        output.accept(ModItem.MelonSliceWithAwkwardness);
-                        output.accept(ModItem.MelonSliceWithMundanity);
-                        output.accept(ModItem.MelonSliceWithDensity);
                         output.accept(ModItem.MelonSliceWithWeakness);
                         output.accept(ModItem.MelonSliceWithHealing);
                         output.accept(ModItem.MelonSliceWithRegeneration);
@@ -298,9 +265,6 @@ public class ModCreativeModeTabs {
                         output.accept(ModItem.MelonSliceWithWeaving);
                         output.accept(ModItem.MelonSliceWithInfestation);
 
-                        output.accept(ModItem.CarrotWithAwkwardness);
-                        output.accept(ModItem.CarrotWithMundanity);
-                        output.accept(ModItem.CarrotWithDensity);
                         output.accept(ModItem.CarrotWithWeakness);
                         output.accept(ModItem.CarrotWithHealing);
                         output.accept(ModItem.CarrotWithRegeneration);
@@ -321,9 +285,6 @@ public class ModCreativeModeTabs {
                         output.accept(ModItem.CarrotWithWeaving);
                         output.accept(ModItem.CarrotWithInfestation);
 
-                        output.accept(ModItem.PotatoWithAwkwardness);
-                        output.accept(ModItem.PotatoWithMundanity);
-                        output.accept(ModItem.PotatoWithDensity);
                         output.accept(ModItem.PotatoWithWeakness);
                         output.accept(ModItem.PotatoWithHealing);
                         output.accept(ModItem.PotatoWithRegeneration);
@@ -344,9 +305,6 @@ public class ModCreativeModeTabs {
                         output.accept(ModItem.PotatoWithWeaving);
                         output.accept(ModItem.PotatoWithInfestation);
 
-                        output.accept(ModItem.BakedPotatoWithAwkwardness);
-                        output.accept(ModItem.BakedPotatoWithMundanity);
-                        output.accept(ModItem.BakedPotatoWithDensity);
                         output.accept(ModItem.BakedPotatoWithWeakness);
                         output.accept(ModItem.BakedPotatoWithHealing);
                         output.accept(ModItem.BakedPotatoWithRegeneration);
@@ -367,9 +325,6 @@ public class ModCreativeModeTabs {
                         output.accept(ModItem.BakedPotatoWithWeaving);
                         output.accept(ModItem.BakedPotatoWithInfestation);
 
-                        output.accept(ModItem.BeetrootWithAwkwardness);
-                        output.accept(ModItem.BeetrootWithMundanity);
-                        output.accept(ModItem.BeetrootWithDensity);
                         output.accept(ModItem.BeetrootWithWeakness);
                         output.accept(ModItem.BeetrootWithHealing);
                         output.accept(ModItem.BeetrootWithRegeneration);
@@ -390,9 +345,6 @@ public class ModCreativeModeTabs {
                         output.accept(ModItem.BeetrootWithWeaving);
                         output.accept(ModItem.BeetrootWithInfestation);
 
-                        output.accept(ModItem.DriedKelpWithAwkwardness);
-                        output.accept(ModItem.DriedKelpWithMundanity);
-                        output.accept(ModItem.DriedKelpWithDensity);
                         output.accept(ModItem.DriedKelpWithWeakness);
                         output.accept(ModItem.DriedKelpWithHealing);
                         output.accept(ModItem.DriedKelpWithRegeneration);
@@ -413,9 +365,6 @@ public class ModCreativeModeTabs {
                         output.accept(ModItem.DriedKelpWithWeaving);
                         output.accept(ModItem.DriedKelpWithInfestation);
 
-                        output.accept(ModItem.BreadWithAwkwardness);
-                        output.accept(ModItem.BreadWithMundanity);
-                        output.accept(ModItem.BreadWithDensity);
                         output.accept(ModItem.BreadWithWeakness);
                         output.accept(ModItem.BreadWithHealing);
                         output.accept(ModItem.BreadWithRegeneration);
@@ -436,9 +385,6 @@ public class ModCreativeModeTabs {
                         output.accept(ModItem.BreadWithWeaving);
                         output.accept(ModItem.BreadWithInfestation);
 
-                        output.accept(ModItem.CookieWithAwkwardness);
-                        output.accept(ModItem.CookieWithMundanity);
-                        output.accept(ModItem.CookieWithDensity);
                         output.accept(ModItem.CookieWithWeakness);
                         output.accept(ModItem.CookieWithHealing);
                         output.accept(ModItem.CookieWithRegeneration);

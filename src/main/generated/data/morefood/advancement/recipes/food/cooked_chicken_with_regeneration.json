@@ -1,0 +1,43 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_base": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:cooked_chicken"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_testtube": {
+      "conditions": {
+        "items": [
+          {
+            "items": "morefood:testtube"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipes": "morefood:cooked_chicken_with_regeneration"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_base",
+      "has_testtube"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "morefood:cooked_chicken_with_regeneration"
+    ]
+  }
+}

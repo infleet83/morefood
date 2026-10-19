@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "More foods",
+  "ingredients": [
+    "morefood:testtube_of_oozing",
+    "minecraft:cooked_cod"
+  ],
+  "result": {
+    "id": "morefood:cooked_cod_with_oozing"
+  }
+}

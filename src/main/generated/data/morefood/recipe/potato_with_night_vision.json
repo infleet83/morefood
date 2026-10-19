@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "More foods",
+  "ingredients": [
+    "morefood:testtube_of_night_vision",
+    "minecraft:potato"
+  ],
+  "result": {
+    "id": "morefood:potato_with_night_vision"
+  }
+}

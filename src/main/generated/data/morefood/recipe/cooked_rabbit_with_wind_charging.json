@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "More foods",
+  "ingredients": [
+    "morefood:testtube_of_wind_charging",
+    "minecraft:cooked_rabbit"
+  ],
+  "result": {
+    "id": "morefood:cooked_rabbit_with_wind_charging"
+  }
+}

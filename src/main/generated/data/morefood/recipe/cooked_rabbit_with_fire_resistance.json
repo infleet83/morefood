@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "More foods",
+  "ingredients": [
+    "morefood:testtube_of_fire_resistance",
+    "minecraft:cooked_rabbit"
+  ],
+  "result": {
+    "id": "morefood:cooked_rabbit_with_fire_resistance"
+  }
+}
